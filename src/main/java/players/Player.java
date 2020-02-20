@@ -40,7 +40,11 @@ public abstract class Player implements Attacking {
     }
 
     public void attack(Player opposingPlayer) {
-        opposingPlayer.healthPoints -= calculateTotalAttackValue();
+        int effectiveDamage = calculateTotalAttackValue() - opposingPlayer.defenceRating;
+        if(effectiveDamage > 0) {
+            opposingPlayer.healthPoints -= effectiveDamage;
+        }
+        opposingPlayer.defenceRating --;
     }
 
 

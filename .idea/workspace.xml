@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2799f2e-197d-4f9a-b441-dc148d0143cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/AttackingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Spells/Fireball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/MythicalCreature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/weapons/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/weapons/Unarmed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Attacking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/casters/Caster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,22 +86,22 @@
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="81" y="412" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.956@0.23.1680.956" timestamp="1582208096717" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582212389682">
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582213854175">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582212389682" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582212389681">
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582213854175" />
+    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582213854174">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582212389681" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582212389680">
+    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582213854174" />
+    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582213854174">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582212389680" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582212389681">
+    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582213854174" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582213854174">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
-    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582212389681" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582213854174" />
     <state x="327" y="114" width="1028" height="772" key="find.popup" timestamp="1582211476715">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
