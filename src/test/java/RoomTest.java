@@ -15,15 +15,17 @@ public class RoomTest {
     RoomDungeon dungeonRoom;
     Character knight;
     AttackingItem unarmed;
+    Treasure monsterMunch;
     ArrayList<AttackingItem> attackingItemBag;
     ArrayList<Character> charactersInRoom;
     ArrayList<Treasure> treasureInRoom;
 
     @Before
     public void before() {
+
+        treasureInRoom = new ArrayList<Treasure>();
         dungeonRoom = new RoomDungeon(
                 "dungeon",
-                charactersInRoom,
                 treasureInRoom
         );
         knight = new Knight(
@@ -36,19 +38,14 @@ public class RoomTest {
         );
     }
 
-//    @Test
-//    public void roomStartsWithZeroCharacters() {
-//        assertEquals(0, );
-//    }
-
     @Test
-    public void roomStartsEmpty() {
-        assertEquals(0, dungeonRoom.numberOfObjectsInRoom());
+    public void roomStartsWithoutTreasure() {
+        assertEquals(0, dungeonRoom.numberOfTreasureInRoom());
     }
 
     @Test
-    public void canAddCharacterToRoom() {
-        dungeonRoom.addCharacter(knight);
-        assertEquals(1, dungeonRoom.numberOfObjectsInRoom());
+    public void canAddTreasureToRoom() {
+        dungeonRoom.addTreasure(monsterMunch);
+        assertEquals(1, dungeonRoom.numberOfTreasureInRoom());
     }
 }

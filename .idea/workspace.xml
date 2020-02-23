@@ -3,23 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d2799f2e-197d-4f9a-b441-dc148d0143cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/treasure/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/treasure/Treasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Attacking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Attacking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Caster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Caster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rooms/RoomDungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/RoomDungeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/items/treasure/Treasure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/treasure/Treasure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/treasure/TreasureAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Attacking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Cleric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Caster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Warlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Wizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Barbarian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Dwarf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Knight.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/RoomDungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/RoomDungeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunManager" selected="JUnit.All in FantasyAllDayLab">
@@ -106,11 +106,11 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="340" y="84" width="1127" height="831" key="#Project_Structure/0.23.1680.954@0.23.1680.954" timestamp="1582292536938" />
-    <state x="609" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582461849035">
-      <screen x="0" y="23" width="1680" height="958" />
+    <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582470003531">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1680.954@0.23.1680.954" timestamp="1582454003252" />
-    <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1582297016763" />
+    <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1582470003531" />
     <state x="609" y="158" key="#com.intellij.ide.util.MemberChooser/0.23.1680.958@0.23.1680.958" timestamp="1582461849035" />
     <state x="81" y="412" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582208096717">
       <screen x="0" y="23" width="1680" height="956" />
@@ -124,26 +124,30 @@
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="515" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.956@0.23.1680.956" timestamp="1582457284534" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582461709930">
+    <state x="502" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582469315582">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="502" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.956@0.23.1680.956" timestamp="1582469315582" />
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582470034803">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1582291502410" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582461709930" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582461709929">
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582470034803" />
+    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582470034802">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1582291502409" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582461709929">
+    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582470034802" />
+    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582470034802">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1582291502409" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582461709929">
+    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582470034802" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582470034803">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1582291502410" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582470034803" />
     <state width="1612" height="298" key="GridCell.Tab.1.bottom" timestamp="1582457011755">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
