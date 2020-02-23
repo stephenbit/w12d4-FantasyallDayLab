@@ -4,7 +4,7 @@ import items.AttackingItem;
 
 public class Unarmed extends AttackingItem {
 
-    public Unarmed(String name, int attackMultiplier) {
+    public Unarmed(String name, double attackMultiplier) {
         super(name, attackMultiplier);
     }
 

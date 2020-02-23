@@ -1,11 +1,27 @@
 package players.fighters;
 
 import items.AttackingItem;
-import players.Player;
+import players.Character;
 
-public class Knight extends Player {
+import java.util.ArrayList;
 
-    public Knight(int healthPoints, String name, int attackRating, int defenceRating) {
-        super(healthPoints, name, attackRating, defenceRating);
+public class Knight extends Character {
+
+    public Knight(
+            String name,
+            double healthPoints,
+            double attackRating,
+            double defenceRating,
+            ArrayList<AttackingItem> attackingItemBag,
+            AttackingItem heldAttackingItem
+    ) {
+        super(
+                name,
+                healthPoints,
+                attackRating,
+                defenceRating,
+                attackingItemBag,
+                heldAttackingItem
+        );
     }
 }

@@ -1,11 +1,27 @@
 package players.fighters;
 
 import items.AttackingItem;
-import players.Player;
+import players.Character;
 
-public class Dwarf extends Player {
+import java.util.ArrayList;
 
-    public Dwarf(int healthPoints, String name, int attackRating, int defenceRating) {
-        super(healthPoints, name, attackRating, defenceRating);
+public class Dwarf extends Character {
+
+    public Dwarf(
+            String name,
+            double healthPoints,
+            double attackRating,
+            double defenceRating,
+            ArrayList<AttackingItem> attackingItemBag,
+            AttackingItem heldAttackingItem
+    ) {
+        super(
+                name,
+                healthPoints,
+                attackRating,
+                defenceRating,
+                attackingItemBag,
+                heldAttackingItem
+        );
     }
 }

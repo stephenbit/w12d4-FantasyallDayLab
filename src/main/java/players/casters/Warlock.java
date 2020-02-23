@@ -1,16 +1,35 @@
 package players.casters;
 
 import items.AttackingItem;
-import players.Player;
+import items.mythicalcreatures.MythicalCreature;
+import players.Character;
+
+import java.util.ArrayList;
 
 public class Warlock extends Caster {
 
-    public Warlock(int healthPoints, String name, int attackRating, int defenceRating) {
-        super(healthPoints, name, attackRating, defenceRating);
+    public Warlock(
+            String name,
+            double healthPoints,
+            double attackRating,
+            double defenceRating,
+            ArrayList<AttackingItem> attackingItemBag,
+            AttackingItem heldAttackingItem,
+            MythicalCreature mythicalCreature
+    ) {
+        super(
+                name,
+                healthPoints,
+                attackRating,
+                defenceRating,
+                attackingItemBag,
+                heldAttackingItem,
+                mythicalCreature
+        );
     }
 
-    public void attack(Player opposingPlayer) {
-        super.attack(opposingPlayer);
+    public void attack(Character opposingCharacter) {
+        super.attack(opposingCharacter);
     }
 
 

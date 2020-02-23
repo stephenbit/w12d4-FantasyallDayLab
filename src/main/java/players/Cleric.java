@@ -1,8 +1,26 @@
 package players;
 
-public class Cleric extends Player {
+import items.AttackingItem;
 
-    public Cleric(int healthPoints, String name, int attackRating, int defenceRating) {
-        super(healthPoints, name, attackRating, defenceRating);
+import java.util.ArrayList;
+
+public class Cleric extends Character {
+
+    public Cleric(
+            String name,
+            double healthPoints,
+            double attackRating,
+            double defenceRating,
+            ArrayList<AttackingItem> attackingItemBag,
+            AttackingItem heldAttackingItem
+    ) {
+        super(
+                name,
+                healthPoints,
+                attackRating,
+                defenceRating,
+                attackingItemBag,
+                heldAttackingItem
+        );
     }
 }

@@ -3,14 +3,14 @@ package items;
 public abstract class AttackingItem {
 
     protected String name;
-    protected int attackMultiplier;
+    protected double attackMultiplier;
 
-    public AttackingItem(String name, int attackMultiplier) {
+    public AttackingItem(String name, double attackMultiplier) {
         this.name = name;
         this.attackMultiplier = attackMultiplier;
     }
 
-    public int getAttackMultiplier() {
+    public double getAttackMultiplier() {
         return attackMultiplier;
     }
 }
