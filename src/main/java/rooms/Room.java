@@ -1,18 +1,25 @@
 package rooms;
 
+import items.AttackingItem;
 import items.treasure.Treasure;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public abstract class Room {
 
     String name;
+    
+    protected ArrayList<Treasure> treasureInRoom;
+    protected ArrayList<Character> charactersInRoom;
 
-    private Character character;
-    private Treasure treasure;
-
-
-    public Room(String name) {
+    public Room(
+            String name,
+            ArrayList<Character> charactersInRoom,
+            ArrayList<Treasure> treasureInRoom
+            ) {
         this.name = name;
-        this.character = character;
-        this.treasure = null;
+        this.charactersInRoom = charactersInRoom;
+        this.treasureInRoom = treasureInRoom;
     }
 }

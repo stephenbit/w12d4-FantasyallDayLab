@@ -1,13 +1,12 @@
-package players.fighters;
+package characters;
 
 import items.AttackingItem;
-import players.Character;
 
 import java.util.ArrayList;
 
-public class Barbarian extends Character {
+public class Cleric extends Character {
 
-    public Barbarian(
+    public Cleric(
             String name,
             double healthPoints,
             double attackRating,

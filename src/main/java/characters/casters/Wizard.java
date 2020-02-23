@@ -1,18 +1,20 @@
-package players;
+package characters.casters;
 
 import items.AttackingItem;
+import items.mythicalcreatures.MythicalCreature;
 
 import java.util.ArrayList;
 
-public class Cleric extends Character {
+public class Wizard extends Caster {
 
-    public Cleric(
+    public Wizard(
             String name,
             double healthPoints,
             double attackRating,
             double defenceRating,
             ArrayList<AttackingItem> attackingItemBag,
-            AttackingItem heldAttackingItem
+            AttackingItem heldAttackingItem,
+            MythicalCreature mythicalCreature
     ) {
         super(
                 name,
@@ -20,7 +22,8 @@ public class Cleric extends Character {
                 attackRating,
                 defenceRating,
                 attackingItemBag,
-                heldAttackingItem
+                heldAttackingItem,
+                mythicalCreature
         );
     }
 }

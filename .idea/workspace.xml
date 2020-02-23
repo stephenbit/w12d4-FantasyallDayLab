@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2799f2e-197d-4f9a-b441-dc148d0143cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Spells/Spark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Spells/Spells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/treasure/Treasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/RoomDungeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/AttackingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/AttackingItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Spells/Fireball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/MythicalCreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/MythicalCreature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/weapons/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/weapons/Unarmed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/weapons/Unarmed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Attacking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Attacking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Caster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/casters/Caster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/treasure/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/treasure/Treasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Attacking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Attacking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Caster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Caster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/casters/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/RoomDungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/RoomDungeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/AttackingItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/AttackingItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/Spells/Fireball.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Spells/Fireball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/mythicalcreatures/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/mythicalcreatures/Dragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/mythicalcreatures/MythicalCreature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/mythicalcreatures/MythicalCreature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/weapons/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/weapons/Sword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/weapons/Unarmed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/weapons/Unarmed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Attacking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Attacking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Caster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/casters/Caster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/casters/Warlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/casters/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Barbarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/treasure/Treasure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/treasure/Treasure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/treasure/TreasureAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +106,12 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="340" y="84" width="1127" height="831" key="#Project_Structure/0.23.1680.954@0.23.1680.954" timestamp="1582292536938" />
-    <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582454003252">
-      <screen x="0" y="23" width="1680" height="954" />
+    <state x="609" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582461849035">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1680.954@0.23.1680.954" timestamp="1582454003252" />
     <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1582297016763" />
+    <state x="609" y="158" key="#com.intellij.ide.util.MemberChooser/0.23.1680.958@0.23.1680.958" timestamp="1582461849035" />
     <state x="81" y="412" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582208096717">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
@@ -144,26 +124,26 @@
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="515" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.956@0.23.1680.956" timestamp="1582457284534" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582457012111">
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom" timestamp="1582461709930">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1582291502410" />
-    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582457012111" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582457012110">
+    <state width="1612" height="239" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1582461709930" />
+    <state width="1612" height="239" key="GridCell.Tab.0.center" timestamp="1582461709929">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1582291502409" />
-    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582457012110" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582457012110">
+    <state width="1612" height="239" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
+    <state width="1612" height="239" key="GridCell.Tab.0.left" timestamp="1582461709929">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1582291502409" />
-    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582457012110" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582457012110">
+    <state width="1612" height="239" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right" timestamp="1582461709929">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1582291502410" />
-    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582457012110" />
+    <state width="1612" height="239" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1582461709929" />
     <state width="1612" height="298" key="GridCell.Tab.1.bottom" timestamp="1582457011755">
       <screen x="0" y="23" width="1680" height="956" />
     </state>

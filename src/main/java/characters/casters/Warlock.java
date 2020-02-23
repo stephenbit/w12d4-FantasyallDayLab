@@ -1,13 +1,14 @@
-package players.casters;
+package characters.casters;
 
 import items.AttackingItem;
 import items.mythicalcreatures.MythicalCreature;
+import characters.Character;
 
 import java.util.ArrayList;
 
-public class Wizard extends Caster {
+public class Warlock extends Caster {
 
-    public Wizard(
+    public Warlock(
             String name,
             double healthPoints,
             double attackRating,
@@ -26,4 +27,11 @@ public class Wizard extends Caster {
                 mythicalCreature
         );
     }
+
+    public void attack(Character opposingCharacter) {
+        super.attack(opposingCharacter);
+    }
+
+
+
 }

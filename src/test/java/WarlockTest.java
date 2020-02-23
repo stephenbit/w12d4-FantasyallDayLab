@@ -4,11 +4,11 @@ import items.mythicalcreatures.Dragon;
 import items.mythicalcreatures.MythicalCreature;
 import org.junit.Before;
 import org.junit.Test;
-import players.Character;
-import players.casters.Caster;
-import players.casters.Warlock;
-import players.fighters.Dwarf;
-import players.fighters.Knight;
+import characters.Character;
+import characters.casters.Caster;
+import characters.casters.Warlock;
+import characters.fighters.Dwarf;
+import characters.fighters.Knight;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;

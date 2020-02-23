@@ -1,4 +1,4 @@
-package players;
+package characters;
 
 import items.AttackingItem;
 import items.weapons.Unarmed;

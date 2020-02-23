@@ -1,13 +1,13 @@
-package players.fighters;
+package characters.fighters;
 
 import items.AttackingItem;
-import players.Character;
+import characters.Character;
 
 import java.util.ArrayList;
 
-public class Dwarf extends Character {
+public class Barbarian extends Character {
 
-    public Dwarf(
+    public Barbarian(
             String name,
             double healthPoints,
             double attackRating,

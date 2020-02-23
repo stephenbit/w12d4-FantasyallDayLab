@@ -1,7 +1,7 @@
-package players.fighters;
+package characters.fighters;
 
 import items.AttackingItem;
-import players.Character;
+import characters.Character;
 
 import java.util.ArrayList;
 

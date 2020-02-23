@@ -1,14 +1,16 @@
-package players.casters;
+package characters.casters;
 
 import items.AttackingItem;
 import items.mythicalcreatures.MythicalCreature;
-import players.Character;
+import characters.Character;
 
 import java.util.ArrayList;
 
-public class Warlock extends Caster {
+public abstract class Caster extends Character {
 
-    public Warlock(
+    protected MythicalCreature mythicalCreature;
+
+    public Caster(
             String name,
             double healthPoints,
             double attackRating,
@@ -23,15 +25,17 @@ public class Warlock extends Caster {
                 attackRating,
                 defenceRating,
                 attackingItemBag,
-                heldAttackingItem,
-                mythicalCreature
+                heldAttackingItem
         );
+        this.mythicalCreature = mythicalCreature;
     }
 
-    public void attack(Character opposingCharacter) {
-        super.attack(opposingCharacter);
+    public MythicalCreature getMythicalCreature() {
+        return mythicalCreature;
     }
 
-
-
+    public void setMythicalCreature(MythicalCreature mythicalCreature) {
+        this.mythicalCreature = mythicalCreature;
+        this.defenceRating *= mythicalCreature.getDefenceMultiplier();
+    }
 }
